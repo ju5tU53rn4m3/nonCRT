@@ -2,7 +2,6 @@
 #include <windows.h>
 
 namespace Basic {
-	//Кодировки
 	class EncodingDetector {
 	private:
 		const char* str;
@@ -79,7 +78,6 @@ namespace Basic {
 			asciiStr[j] = '\0';
 		}
 	};
-	//Кодировки
 
 	const int MAX_DIGITS = 16;
 
@@ -146,8 +144,6 @@ namespace Basic {
 			iPrint(utf8Str);
 		}
 	}
-	//Prints
-
 
 	void pause() {
 		INPUT_RECORD ir;
